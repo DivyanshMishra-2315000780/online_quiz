@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Administrator",
+      "email": "admin@example.com",
+      "passwordHash": "$2a$10$.omoa5aj7u3915BSDs3UYe72xnX6iSHaoCULMDK2lXPnkf9AgWcQO",
+      "role": "admin"
+    },
+    {
+      "id": "83213ab7-77c7-43fa-b9ed-0bf09ffb6f32",
+      "name": "Test User",
+      "email": "test@example.com",
+      "passwordHash": "$2a$10$fEFvF4ZPkqwVO9Zjkl9rh.YCudEof9Ct8HWxqoKP/jpRWMtweixNy",
+      "role": "student"
+    },
+    {
+      "id": "e03e8fb9-ae9e-419d-b175-db542eb5e184",
+      "name": "divy",
+      "email": "kingkongji82@gmail.com",
+      "passwordHash": "$2a$10$6Vyb82xmsUbwlJFcyWX9mO4sJWWWOdtWiy5S5y/6bu.XA9B9Zqkm6",
+      "role": "student"
+    }
+  ],
+  "exams": [
+    {
+      "id": "e1",
+      "title": "Math Basics",
+      "desc": "Simple arithmetic quiz",
+      "time": "15 min"
+    },
+    {
+      "id": "e2",
+      "title": "Science",
+      "desc": "Basic science knowledge",
+      "time": "20 min"
+    },
+    {
+      "id": "e3",
+      "title": "English",
+      "desc": "Grammar and vocabulary",
+      "time": "10 min"
+    }
+  ],
+  "results": []
+}

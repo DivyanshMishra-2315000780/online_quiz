@@ -1,0 +1,20 @@
+Snapshot & archive instructions
+
+1) Quick zip the project (PowerShell):
+   - Open PowerShell and run these commands from the parent folder "New folder (2)":
+
+     cd "C:\Users\Subhash\Desktop\New folder (2)\quiz-application"
+     .\SAVE\quick_snapshot.ps1
+
+   - The script will create `quiz-application-snapshot.zip` next to this folder.
+
+2) Alternatively, to create a zip excluding node_modules manually:
+   - Use PowerShell:
+
+     Compress-Archive -Path .\client, .\frontend, .\SAVE -DestinationPath ..\quiz-application-snapshot.zip -Force
+
+   - If you need to exclude node_modules, create a temporary copy (or specify paths to only include the folders you want).
+
+3) Safety note: large folders (node_modules) can make the zip very large. Exclude them where appropriate.
+
+If you want, I can also create a single zip inside the workspace (I can run the command here). If you'd like that, confirm and I'll run the compression now (it may take a few seconds/minutes depending on size).

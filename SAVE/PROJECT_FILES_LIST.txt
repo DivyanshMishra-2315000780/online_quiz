@@ -1,0 +1,24 @@
+Project snapshot - key files (non-exhaustive)
+
+frontend and client (working CRA frontend):
+- client/src/components/common/Sidebar.js
+- client/src/components/common/Navbar.js
+- client/src/components/common/Footer.js
+- client/src/components/user/UserExamCard.js
+- client/src/pages/user/UserHome.js
+- client/src/pages/user/ExamInstructions.js
+- client/src/pages/user/TakeExam.js
+- client/src/pages/user/UserReports.js
+- client/src/pages/auth/Login.js
+- client/src/pages/auth/Register.js
+- client/src/pages/admin/AdminHome.js
+- client/src/pages/admin/AddExam.js
+- client/src/pages/admin/EditExam.js
+- client/src/pages/admin/AdminReports.js
+- client/src/styles/App.css
+- client/src/index.js
+- client/public/images/* (IMG-20251107-WA0001.jpg ... IMG-20251107-WA0013.jpg)
+
+Notes:
+- There were earlier server files under `server/` during the session (Express, authRoutes, models) which were later removed from the root per user's instruction; backups may exist in `frontend/` or elsewhere depending on earlier moves.
+- If you need a complete file-by-file manifest, I can produce one by scanning the repository and saving to this file.
